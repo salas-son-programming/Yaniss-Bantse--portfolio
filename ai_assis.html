@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Student Assistant</title>
+    <link rel="icon" type="image" href="favicon.jpeg">
+    <link rel="stylesheet" href="ai_assis.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/your-kit.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="project-page">
+
+    <section class="project-hero ai-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+
+        <!-- LEFT SIDE -->
+
+        <div class="project-hero-content">
+
+            <p class="project-label">// CatHacks 2025 → Expanded Post-Hackathon</p>
+
+            <h1>
+                AI Student
+                <span>Assistant</span>
+            </h1>
+
+            <p class="project-description">
+                An AI-powered study tool built at CatHacks and significantly
+                expanded after the hackathon. Paste text or upload a PDF to get
+                instant explanations, summaries, and key concept breakdowns —
+                then ask follow-up questions in context.
+            </p>
+
+            <div class="project-buttons">
+
+                <a href="https://salas-son-programming.github.io/AI-STUDENT-ASSISTANT/"
+                target="_blank"
+                class="project-btn primary-btn">
+
+                    Live Demo
+
+                </a>
+
+                <a href="https://github.com/salas-son-programming/AI-STUDENT-ASSISTANT"
+                target="_blank"
+                class="project-btn secondary-btn">
+
+                    View Code
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE IMAGE -->
+
+        <div class="hero-image-container">
+
+            <img src="AI_ASSISTANT_IMAGE.png"
+            class="hero-ai-image">
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ABOUT -->
+
+    <section class="project-section">
+
+        <div class="section-left">
+
+            <p class="section-tag">// Inspiration</p>
+
+            <h2>
+                Built to make studying
+                <span>faster and smarter.</span>
+            </h2>
+
+            <p>
+                Started at CatHacks with a simple idea: let students paste
+                any text and get an instant explanation. After the hackathon,
+                I kept building — adding PDF upload, contextual follow-up chat,
+                persistent session history, and a fully rebuilt interface.
+                The goal is to make dense academic material immediately approachable.
+            </p>
+
+        </div>
+
+        <div class="section-right">
+
+            <div class="glass-card">
+
+                <i class="fa-solid fa-brain"></i>
+
+                <h3>AI Learning</h3>
+
+                <p>
+                    Conversational AI powered by OpenAI's GPT-4o mini,
+                    with tailored prompts per action for structured, useful output.
+                </p>
+
+            </div>
+
+            <div class="glass-card">
+
+                <i class="fa-solid fa-file-lines"></i>
+
+                <h3>PDF Analysis</h3>
+
+                <p>
+                    Client-side PDF parsing via PDF.js — no file upload to a server.
+                    Works entirely in the browser.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features-section" id="features">
+
+        <p class="section-tag">// Features</p>
+
+        <h2 class="features-title">
+            What the assistant
+            <span>can do.</span>
+        </h2>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-lightbulb"></i>
+
+                <h3>Explain</h3>
+
+                <p>
+                    Breaks down any concept or passage into plain language,
+                    with analogies and step-by-step reasoning.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-book"></i>
+
+                <h3>Summarize</h3>
+
+                <p>
+                    Extracts the main idea and key points from long
+                    documents or notes into a concise summary.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-tags"></i>
+
+                <h3>Key Concepts</h3>
+
+                <p>
+                    Identifies and defines the most important terms
+                    in any passage, ordered from fundamental to complex.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-file-pdf"></i>
+
+                <h3>PDF Upload</h3>
+
+                <p>
+                    Drag and drop any PDF. Text is extracted client-side
+                    using PDF.js and analyzed instantly.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-comments"></i>
+
+                <h3>Follow-up Chat</h3>
+
+                <p>
+                    Ask questions about any result. The assistant remembers
+                    the full context of the session.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-clock-rotate-left"></i>
+
+                <h3>Session History</h3>
+
+                <p>
+                    All sessions are saved locally and accessible from
+                    the sidebar — no account required.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TECH STACK -->
+
+    <section class="stack-section">
+
+        <div class="stack-content">
+
+            <p class="section-tag">// Technologies</p>
+
+            <h2>
+                The stack behind
+                <span>the project.</span>
+            </h2>
+
+        </div>
+
+        <div class="stack-grid">
+
+            <div class="stack-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Frontend</h3>
+                <p>Vanilla JavaScript, HTML, CSS — no framework</p>
+            </div>
+
+            <div class="stack-box">
+                <i class="fa-solid fa-robot"></i>
+                <h3>OpenAI API</h3>
+                <p>GPT-4o mini with action-specific system prompts</p>
+            </div>
+
+            <div class="stack-box">
+                <i class="fa-solid fa-file-pdf"></i>
+                <h3>PDF.js</h3>
+                <p>Client-side PDF text extraction, no backend required</p>
+            </div>
+
+            <div class="stack-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>localStorage</h3>
+                <p>Persistent session history stored in the browser</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
