@@ -958,6 +958,24 @@
 </footer>
         
     </div>
+
+    <script>
+
+const cards = document.querySelectorAll(".project-card");
+
+cards.forEach(card => {
+
+    card.addEventListener("touchstart", () => {
+
+        cards.forEach(c => c.classList.remove("mobile-active"));
+
+        card.classList.add("mobile-active");
+
+    });
+
+});
+
+</script>
     <script src="index.js"></script>
 </body>
 </html>
