@@ -741,6 +741,9 @@ ul li a:hover::after{
         grid-column-gap: 50px;
         grid-row-gap: 50px;
     }
+    .project-card{
+        height: 600px
+    }
 }
 
 /* ================= EXPERIENCE SECTION ================= */
