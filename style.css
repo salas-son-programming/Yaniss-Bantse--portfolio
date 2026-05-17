@@ -650,6 +650,51 @@ ul li a:hover::after{
     color: #eaefee;
 }
 
+/* PHONE TOUCH EFFECT */
+
+.mobile-active{
+    background-image: none !important;
+
+    background-color: rgb(0, 24, 21);
+
+    transform: translateY(-15px);
+
+    box-shadow: 0 20px 30px rgba(0,0,0,0.4);
+
+    border: solid whitesmoke;
+}
+
+.mobile-active span{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card span{
+
+    opacity: 0;
+
+    transform: translateY(40px);
+
+    transition: 0.5s ease;
+
+}
+
+.project-card:hover span{
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+.mobile-active span{
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
 /* REMOVE IMAGE + SHOW DARK BACKGROUND */
 
 .project-card:hover::before{
