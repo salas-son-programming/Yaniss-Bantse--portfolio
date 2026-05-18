@@ -892,23 +892,22 @@
 
 
         <!-- RIGHT SIDE -->
-        <form class="contact-form">
-
-            <input type="text" placeholder="Your Name">
-
-            <input type="email" placeholder="Your Email">
-
-            <input type="text" placeholder="Subject">
-
-            <textarea 
+        <form action="https://formsubmit.co/youractualname@gmail.com" method="POST" class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea
+                name="message"
                 placeholder="Your Message"
-                rows="8">
+                rows="8"
+                required>
             </textarea>
-
+            <input type="hidden" name="_subject" value="New message from your portfolio">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://salas-son-programming.github.io/Yaniss-Bantse--portfolio/">
             <button type="submit">
                 Send Message →
             </button>
-
         </form>
 
     </div>
