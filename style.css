@@ -618,6 +618,70 @@ ul li a:hover::after{
     z-index: 10;
 }
 
+#student_analyzer{
+    background-image: url(student_performance_image.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+#student_analyzer span{
+    position: relative;
+    z-index: 2;
+}
+
+#student_analyzer::before{
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0,0,0,0.4);
+
+    transition: 0.4s;
+}
+
+#student_analyzer:hover::before{
+    background: rgb(0,24,21);
+}
+
+#nba_analyzer{
+    background-image: url(nba_analyzer_image.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+#nba_analyzer::before{
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0,0,0,0.4);
+
+    transition: 0.4s ease;
+}
+
+#nba_analyzer span{
+    position: relative;
+    z-index: 2;
+}
+
+#nba_analyzer:hover::before{
+    background: rgb(0,24,21);
+}
+
+#nba_analyzer:hover span{
+    transform: translateY(-10px);
+}
+
 .project-link-arrow:hover{
 
     transform:
